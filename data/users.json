@@ -1,0 +1,26 @@
+{
+    "6585ba9bd64c12.94235311": {
+        "username": "admin",
+        "email": "admin@admin.com",
+        "password": "$2y$10$I7oNos3fEIHxpJ9Le2G\/c.elVgDKkmr1QuYXFYzkbjubtxQvQ0f\/y",
+        "balance": 500,
+        "level": "admin",
+        "_id": "6585ba9bd64c12.94235311"
+    },
+    "6585bab58f0114.75088598": {
+        "username": "Marci",
+        "email": "marci@elte.hu",
+        "password": "$2y$10$Lef6fxsVXJOp.ctZXLDNeeh9tm.Qb1nUoMcfHdCXjoemuY2A3l6FK",
+        "balance": 183113,
+        "level": "user",
+        "_id": "6585bab58f0114.75088598"
+    },
+    "658736d6621823.50897861": {
+        "username": "Kl\u00e1ri",
+        "email": "k@k.com",
+        "password": "$2y$10$E9gbRZphg7muDon\/4rb0WuQyAOZpCtTdiyYipacdUayJz8WBFfNVC",
+        "balance": 22000,
+        "level": "user",
+        "_id": "658736d6621823.50897861"
+    }
+}

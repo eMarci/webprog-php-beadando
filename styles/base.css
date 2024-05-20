@@ -1,0 +1,296 @@
+html {
+    --base: rgb(81, 125, 129);
+
+    --normal: rgb(168, 168, 120);
+    --fire: rgb(240, 128, 48);
+    --water: rgb(104, 144, 240);
+    --electric: rgb(248, 208, 48);
+    --grass: rgb(120, 200, 80);
+    --ice: rgb(152, 216, 216);
+    --fighting: rgb(192, 48, 40);
+    --poison: rgb(160, 64, 160);
+    --ground: rgb(224, 192, 104);
+    --flying: rgb(168, 144, 240);
+    --psychic: rgb(248, 88, 136);
+    --bug: rgb(168, 184, 32);
+    --rock: rgb(184, 160, 56);
+    --ghost: rgb(112, 88, 152);
+    --dragon: rgb(112, 56, 248);
+    --dark: rgb(112, 88, 72);
+    --steel: rgb(184, 184, 208);
+    --fairy: rgb(240, 182, 188);
+    --stellar: rgb(53, 172, 231);
+
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form * {
+    font-size: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 0.72rem 7.2rem;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--base);
+}
+
+nav>a {
+    transition: background-color cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s;
+    padding: 0.72rem 1.43rem;
+    margin-left: 0.72rem;
+    border-radius: 0.72rem;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    background-color: rgb(197, 213, 214);
+}
+
+main {
+    margin: 2.9rem 0;
+    padding: 0 7.2rem;
+}
+
+main p {
+    margin: 0;
+}
+
+form {
+    margin: 1.43rem 0;
+}
+
+.cards-container {
+    /* font-size: 20px; */
+    margin: 1.43rem 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.card {
+    margin: 0.72em;
+    border-radius: 0.72em;
+    box-shadow: 0 2px 5px 3px rgb(226, 226, 226);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    width: 14.3em;
+    height: 14.3em;
+    mask-image: none;
+    border-radius: 0.72em 0.72em 0 0;
+}
+
+img.c-normal      { background-color: var(--normal); }
+img.c-fire        { background-color: var(--fire); }
+img.c-water       { background-color: var(--water); }
+img.c-electric    { background-color: var(--electric); }
+img.c-grass       { background-color: var(--grass); }
+img.c-ice         { background-color: var(--ice); }
+img.c-fighting    { background-color: var(--fighting); }
+img.c-poison      { background-color: var(--poison); }
+img.c-ground      { background-color: var(--ground); }
+img.c-flying      { background-color: var(--flying); }
+img.c-psychic     { background-color: var(--psychic); }
+img.c-bug         { background-color: var(--bug); }
+img.c-rock        { background-color: var(--rock); }
+img.c-ghost       { background-color: var(--ghost); }
+img.c-dragon      { background-color: var(--dragon); }
+img.c-dark        { background-color: var(--dark); }
+img.c-steel       { background-color: var(--steel); }
+img.c-fairy       { background-color: var(--fairy); }
+img.c-stellar     { background-color: var(--stellar); }
+
+.card-info {
+    width: 100%;
+    box-shadow: 0 0 15px rgba(75, 75, 75, 0.473);
+}
+
+.card-info {
+    clip-path: inset(-15px 0 0 0px);
+}
+
+.card-info * {
+    color: inherit;
+}
+
+.card-info>h3 {
+    margin: 0;
+    padding: 0.72rem 0;
+    width: 100%;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.card-info>h3+p {
+    margin: 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.card-info>.stats {
+    margin: 0.72rem 0;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.card a {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.card>.stats {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Android Emoji", "EmojiSymbols", sans-serif;
+}
+
+.purchase, .sell, .modify, .trade {
+    width: 100%;
+    padding: 0.93rem 0;
+    text-align: center;
+    font-weight: 700;
+    background-color: var(--base);
+    color: white;
+    border-radius: 0 0 0.72rem 0.72rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.row>table {
+    border-collapse: collapse;
+}
+
+.row td {
+    padding: 5px 7px;
+}
+
+.row tr>td {
+    border-bottom: 1px solid black;
+}
+
+.row tr:last-of-type>td {
+    border: none;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.col>* {
+    margin: 0 50px;
+}
+
+.col>p {
+    margin-top: 10px;
+}
+
+#random-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#random-section>a {
+    padding: 30px 50px;
+    background-color: var(--base);
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+.card>form {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.card>form>button {
+    border: none;
+}
+
+.card>form>button:hover {
+    cursor: pointer;
+}
+
+.cards-container.shrunk {
+    font-size: 10px;
+}
+
+.trades-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.trade-entry {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.trade-entry>p {
+    margin: 0 2rem;
+}
+
+.trade-entry>a {
+    transition: background-color cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.1s;
+    margin-right: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.trade-entry>a:hover {
+    background-color: rgb(197, 213, 214);
+}
+
+@media screen and (max-width: 1140px) {
+    html {
+        font-size: 14px;
+    }
+}

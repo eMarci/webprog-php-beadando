@@ -1,0 +1,74 @@
+{
+    "6585d0f885d947.81491247": {
+        "_id": "6585d0f885d947.81491247",
+        "name": "Pikachu",
+        "type": "electric",
+        "health": "60",
+        "attack": "20",
+        "defense": "20",
+        "price": "160",
+        "description": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+        "image": "https:\/\/assets.pokemon.com\/assets\/cms2\/img\/pokedex\/full\/025.png",
+        "owner": "6585bab58f0114.75088598"
+    },
+    "6585d14ca9ef85.83494672": {
+        "_id": "6585d14ca9ef85.83494672",
+        "name": "Charizard",
+        "type": "fire",
+        "health": "78",
+        "attack": "84",
+        "defense": "78",
+        "price": "534",
+        "description": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+        "image": "https:\/\/assets.pokemon.com\/assets\/cms2\/img\/pokedex\/full\/006.png",
+        "owner": null
+    },
+    "6585d169a63b56.36028905": {
+        "_id": "6585d169a63b56.36028905",
+        "name": "Bulbasaur",
+        "type": "grass",
+        "health": "45",
+        "attack": "49",
+        "defense": "49",
+        "price": "318",
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.",
+        "image": "https:\/\/assets.pokemon.com\/assets\/cms2\/img\/pokedex\/full\/001.png",
+        "owner": "6585bab58f0114.75088598"
+    },
+    "6585d2b2f29071.34287128": {
+        "_id": "6585d2b2f29071.34287128",
+        "name": "Squirtle",
+        "type": "water",
+        "health": "44",
+        "attack": "48",
+        "defense": "65",
+        "price": "314",
+        "description": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
+        "image": "https:\/\/assets.pokemon.com\/assets\/cms2\/img\/pokedex\/full\/007.png",
+        "owner": "658736d6621823.50897861"
+    },
+    "658606a803def3.48851651": {
+        "_id": "658606a803def3.48851651",
+        "name": "Caterpie",
+        "type": "bug",
+        "health": "45",
+        "attack": "30",
+        "defense": "35",
+        "price": "195",
+        "description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+        "image": "https:\/\/assets.pokemon.com\/assets\/cms2\/img\/pokedex\/full\/010.png",
+        "owner": "6585bab58f0114.75088598"
+    },
+    "6586c364cd49b5.03748372": {
+        "_id": "6586c364cd49b5.03748372",
+        "name": "Weedle",
+        "type": "bug",
+        "health": "40",
+        "attack": "35",
+        "defense": "30",
+        "price": "195",
+        "description": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
+        "image": "https:\/\/assets.pokemon.com\/assets\/cms2\/img\/pokedex\/full\/013.png",
+        "owner": null
+    }
+}
